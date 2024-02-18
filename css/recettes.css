@@ -1,8 +1,8 @@
-@import "reset.css";
-@import "navbar.css";
-@import "styles.css";
-@import "responsive.css";
-@import "contact.css";
+@import "./reset.css";
+@import "./navbar.css";
+@import "./styles.css";
+@import "./responsive.css";
+@import "./contact.css";
 
 
 /* Header */
