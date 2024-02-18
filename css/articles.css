@@ -1,5 +1,5 @@
-@import "reset.css";
-@import "responsive.css";
+@import "./reset.css";
+@import "./responsive.css";
 
 
 /* Content */
@@ -57,7 +57,7 @@
 }
 
 #salad-cesar .img-box {
-    background-image: url(/img/salade-cesar.jpg);
+    background-image: url(./img/salade-cesar.jpg);
 }
 
 #falafel h3,
