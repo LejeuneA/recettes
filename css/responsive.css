@@ -1,0 +1,166 @@
+/* Navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 15px;
+    }
+
+    .navbar a,
+    .dropdown .dropbtn {
+        font-size: 14px;
+    }
+
+    .dropdown-content {
+        min-width: 100%;
+    }
+}
+/* Navbar end */
+
+/* Header */
+/* Mobile (Max 767px) */
+@media screen and (max-width: 767px) {
+    .main-header,
+    .main-header-falafel,
+    .main-header-quiche,
+    .main-header-salad {
+        height: 300px;
+    }
+
+    .main-header h1,
+    .main-header-contact h1,
+    .main-header-falafel h1,
+    .main-header-quiche h1,
+    .main-header-salad h1 {
+        font-size: 2em;
+    }
+
+    .main-header h3,
+    .main-header-contact h3,
+    .main-header-falafel h3,
+    .main-header-quiche h3,
+    .main-header-salad h3 {
+        font-size: 1.2em;
+    }
+
+    .main-header-contact h1 {
+        bottom: 31%;
+    }
+}
+/* Medium (768px - 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .main-header h1,
+    .main-header-contact h1,
+    .main-header-falafel h1,
+    .main-header-quiche h1,
+    .main-header-salad h1 {
+        font-size: 2.7em;
+    }
+
+    .main-header h3,
+    .main-header-contact h3,
+    .main-header-falafel h3,
+    .main-header-quiche h3,
+    .main-header-salad h3 {
+        font-size: 1.8em;
+    }
+}
+/* Header end */
+
+/* Content */
+@media screen and (max-width: 767px) {
+    #falafel,
+    #quiche-saumon,
+    #salad-cesar {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+/* Content end */
+
+/* Contact form */
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 576px) {
+    .contact-form {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    button[type=submit],
+    button[type=reset] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/* Contact form end */
+
+/* Contact info */
+/* Mobile (Max 767px) */
+@media screen and (max-width: 767px) {
+    .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1em;
+        gap: 10px;
+    }
+
+    .contact-info i {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-info i {
+        font-size: 1.5em;
+    }
+}
+/* Contact info end */
+
+/* Falafel */
+
+@media screen and (max-width: 767px) {
+    .recette,
+    .recipe,
+    .recipe-box,
+    .ing-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .prep-box {
+        width: 100%;
+    }
+
+    .value-table {
+        width: 100%;
+    }
+
+    .recipe-img img {
+        height: 250px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .recette,
+    .recipe,
+    .recipe-box,
+    .ing-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .recipe-img img {
+        height: 250px;
+    }
+
+    .prep-box {
+        width: 70%;
+    }
+
+    .value-table {
+        width: 70%;
+    }
+}
+/* Falafel end */
+

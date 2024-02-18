@@ -1,0 +1,176 @@
+@import "reset.css";
+@import "navbar.css";
+@import "styles.css";
+@import "responsive.css";
+
+
+/* Header */
+.main-header-contact {
+    background-image: url(/img/vegetables-sm.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.main-header-contact h1 {
+    position: absolute;
+    bottom: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-header-contact h3 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Header end */
+
+/* Content */
+.fa-quote-left,
+.fa-quote-right {
+    font-size: 1.3em;
+    color: var(--tertiary-color);
+}
+
+/* Content end */
+
+/* Form */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 15px rgba(204, 102, 102, 0.9);
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--secondary-color);
+}
+
+button[type=submit],
+button[type=reset] {
+    background-color: var(--tertiary-color);
+    color: var(--primary-lighter);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type=submit]:hover,
+button[type=reset]:hover {
+    background-color: var(--primary-color);
+    border: solid 1px var(--tertiary-color);
+    color: var(--tertiary-color);
+    font-size: 1em;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 6px;
+    padding: 0;
+    border: 2px solid var(--tertiary-color);
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    transition: outline 0.1s;
+  }
+
+  input[type="checkbox"]:checked {
+    background-size: cover;
+    padding: 2px;
+  }
+  
+  input[type="checkbox"]:not(:disabled):checked {
+    border-color: var(--tertiary-color);
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 32 32" xml:space="preserve"><path style="fill: %23274c77" d="M11.941,28.877l-11.941-11.942l5.695-5.696l6.246,6.246l14.364-14.364L32,8.818"/></svg>');
+    background-color: var(--secondary-color);
+}
+/* Checkbox end */
+
+
+/* Form end */
+
+/* Contact */
+.contact-section {
+    background-image: url(/img/contact-sm.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; 
+    position: relative;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 2em;
+}
+
+.form-box{
+    margin-top: 6em;
+    width: 60%;
+}
+/* Contact end */
+
+/* Contact info */
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 3rem;
+    background-color: var(--primary-color);
+
+}
+
+.contact-info i {
+    color: var(--tertiary-color);
+    font-size: 2em;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.contact-info a:hover{
+    text-decoration: none;
+    color: var(--secondary-color);
+
+}
+
+/* Contact info end */
+
+/* Footer */
+.footer-menu a {
+    padding: 10px;
+}
+
+/* Footer end */
