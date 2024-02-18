@@ -6,7 +6,7 @@
 
 /* Header */
 .main-header-contact {
-    background-image: url(img/vegetables-sm.jpg);
+    background-image: url(imgage/vegetables-sm.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -116,7 +116,7 @@ input[type="checkbox"] {
 
 /* Contact */
 .contact-section {
-    background-image: url(img/contact-sm.jpg);
+    background-image: url(imgage/contact-sm.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover; 
