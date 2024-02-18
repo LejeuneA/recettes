@@ -1,5 +1,5 @@
-@import "reset.css";
-@import "responsive.css";
+@import "/css/reset.css";
+@import "/css/responsive.css";
 
 
 /* Content */
@@ -49,15 +49,15 @@
 }
 
 #falafel .img-box {
-    background-image: url(./img/falafel.jpg);
+    background-image: url(/img/falafel.jpg);
 }
 
 #quiche-saumon .img-box {
-    background-image: url(./img/quiche1.jpg);
+    background-image: url(/img/quiche1.jpg);
 }
 
 #salad-cesar .img-box {
-    background-image: url(./img/salade-cesar.jpg);
+    background-image: url(/img/salade-cesar.jpg);
 }
 
 #falafel h3,
