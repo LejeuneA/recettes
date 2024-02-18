@@ -55,7 +55,7 @@ hr {
 .main-header-falafel,
 .main-header-quiche,
 .main-header-salad {
-    background-image: url(image/tomato-sauce-sm.jpg);
+    background-image: url(../image/tomato-sauce-sm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
