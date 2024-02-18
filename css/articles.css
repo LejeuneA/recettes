@@ -49,15 +49,15 @@
 }
 
 #falafel .img-box {
-    background-image: url(img/falafel.jpg);
+    background-image: url(imgage/falafel.jpg);
 }
 
 #quiche-saumon .img-box {
-    background-image: url(img/quiche1.jpg);
+    background-image: url(imgage/quiche1.jpg);
 }
 
 #salad-cesar .img-box {
-    background-image: url(img/salade-cesar.jpg);
+    background-image: url(imgage/salade-cesar.jpg);
 }
 
 #falafel h3,
