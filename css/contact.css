@@ -1,12 +1,12 @@
-@import "reset.css";
-@import "navbar.css";
-@import "styles.css";
-@import "responsive.css";
+@import "./reset.css";
+@import "./navbar.css";
+@import "./styles.css";
+@import "./responsive.css";
 
 
 /* Header */
 .main-header-contact {
-    background-image: url(/img/vegetables-sm.jpg);
+    background-image: url(./img/vegetables-sm.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
