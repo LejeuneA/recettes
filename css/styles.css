@@ -1,7 +1,7 @@
-@import "reset.css";
-@import "navbar.css";
-@import "articles.css";
-@import "responsive.css";
+@import "/css/reset.css";
+@import "/css/navbar.css";
+@import "/css/articles.css";
+@import "/css/responsive.css";
 
 
 
