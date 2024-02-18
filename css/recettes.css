@@ -7,7 +7,7 @@
 
 /* Header */
 .main-header-falafel {
-    background-image: url(/img/falafel2-sm.jpg);
+    background-image: url(./img/falafel2-sm.jpg);
     background-position: center;
     position: relative;
     text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .main-header-salad {
-    background-image: url(/img/salad2.jpg);
+    background-image: url(./img/salad2.jpg);
     background-position: center;
     position: relative;
     text-align: center;
