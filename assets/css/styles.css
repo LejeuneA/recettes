@@ -1,0 +1,87 @@
+@import "./reset.css";
+@import "./components/navigation.css";
+@import "./components/header.css";
+@import "./components/articles.css";
+@import "./components/recettes.css";
+@import "./components/contact.css";
+@import "./components/footer.css";
+
+/* Colors */
+:root {
+    --primary: rgb(223, 159, 159);
+    --secondary: rgb(204, 102, 102);
+    --tertiary: rgb(84, 91, 119);
+    --dark: rgb(55, 66, 89);
+    --light: rgb(242, 216, 216);
+    --primary-lighter: rgb(249, 236, 236);
+    --body-backg-color: rgb(255, 250, 250);
+    
+}
+
+/* Fonts */
+html,
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 1px solid var(--tertiary);
+    opacity: 0.3;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1em;
+    width: 100%;
+}
+
+
+.fa-quote-left,
+.fa-quote-right {
+    font-size: 1.3em;
+    color: var(--primary);
+}
+
+/* Content end */
+
+.blockquote {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--dark);
+    margin: 1em auto 2em;
+    width: 70%;
+}
+
+.blockquote i {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.5em;
+    color: var(--primary);
+    margin: 1em auto;
+}
+
+.introduction-box {
+    padding: 0 8em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align:justify;  
+    text-justify:inter-word;
+    font-size: 1em;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        padding: 0 3em;
+        font-size: 0.9em;
+    }
+}
+

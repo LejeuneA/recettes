@@ -1,0 +1,108 @@
+@import "../reset.css";
+@import "../css/styles.css";
+@import "./components/navigation.css";
+@import "./components/contact.css";
+@import "./components/articles.css";
+@import "./components/header.css";
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 2.5em;
+    text-align: center;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        padding: 1.5em;
+    }
+}
+
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    color: var(--primary);
+    display: flex;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        font-size: smaller;
+    }
+}
+
+.footer-menu li a:hover {
+    color: var(--light);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    gap: 2em;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+.footer-copyright,
+.footer-contact {
+    font-size: small;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+.footer-copyright a.github-link {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.footer-copyright a.github-link:hover {
+    color: var(--primary);
+}
+
+.footer-contact a {
+    color: var(--primary);
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.footer-contact a:hover {
+    color: var(--light);
+}
+
+.footer-contact span {
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        display: block;
+        margin-top: 0.5rem;
+    }
+}

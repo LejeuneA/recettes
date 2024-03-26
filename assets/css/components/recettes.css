@@ -1,0 +1,464 @@
+@import "../reset.css";
+@import "../styles.css";
+@import "../components/navigation.css";
+@import "../components/header.css";
+@import "../components/articles.css";
+@import "../components/footer.css";
+@import "../components/contact.css";
+
+
+/*------------------------------------------------
+                     Header 
+-------------------------------------------------*/
+.main-header-falafel,
+.main-header-quiche,
+.main-header-salad {
+    background-image: url(../../images/falafel2-sm.jpg);
+    background-position: center;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35em;
+    padding: 3em;
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        height: 20em;
+    }
+}
+
+.main-header-quiche {
+    background-image: url(../../images/quiche2.jpg);
+}
+
+.main-header-salad {
+    background-image: url(../../images/salad2.jpg);
+}
+
+.main-header-falafel h1,
+.main-header-quiche h1,
+.main-header-salad h1 {
+    font-weight: 800;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.800);
+    color: var(--light);
+    font-size: 3.5em;
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        font-size: 2.5em;
+    }
+}
+
+.main-header-falafel p,
+.main-header-quiche p,
+.main-header-salad p {
+    background-color: var(--light);
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--dark);
+    display: inline-flex;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1.2em;
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+        font-size: 1.5em;
+        padding: 0.5em;
+    }
+}
+
+/*------------------------------------------------
+                    Header end
+-------------------------------------------------*/
+
+/*------------------------------------------------
+                    Content
+-------------------------------------------------*/
+.blockquote-paragraph {
+    font-weight: 300;
+    padding: 2em 8em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1em;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        padding: 0 3em;
+        font-size: 0.9em;
+    }
+}
+
+.recipe-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.ing-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    font-weight: 300;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
+
+.prep-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--primary-lighter);
+    width: 70%;
+    padding: 2em;
+    border-radius: 1em;
+    gap: 1rem;
+    text-align: center;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.recipe {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--tertiary);
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: var(--body-backg-color);
+}
+
+.recipe ul li {
+    padding: 0.5em;
+}
+
+.recipe-img img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.timing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em;
+    font-weight: 300;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        flex-direction: column;
+        gap: 1em;
+
+    }
+}
+
+.prep {
+    padding: 0 1em;
+}
+
+.prep-box h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: var(--tertiary);
+}
+
+.prep h3 {
+    margin: 1.5em 0;
+}
+
+.prep p {
+    margin-top: 2em;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.prep p span {
+    display: block;
+    font-weight: 300;
+}
+
+.prep hr,
+.recipe hr,
+th hr {
+    margin: 1em 0;
+    width: 100%;
+}
+
+/*------------------------------------------------
+                  Value table
+-------------------------------------------------*/
+.value-table {
+    width: 40%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive styles */
+@media (min-width: 320px) and (max-width: 768px) {
+    .value-table {
+        width: 100%;
+    }
+}
+
+.value-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.value-table thead h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.value-table tbody th {
+    text-align: center;
+    padding: 1em;
+    background-color: var(--primary);
+}
+
+.value-table p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.value-table hr {
+    border: 1px solid var(--light);
+}
+
+.value-table tbody > tr > th{
+    text-align:initial;
+    background-color: var(--primary);
+}
+
+.value-table td {
+    padding: 1.5em;
+    text-align: left;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.value-table th,
+.value-table tr:last-child {
+    background-color: var(--secondary);
+    color: var(--body-backg-color);
+    font-size: 1rem;
+    padding: 3em;
+}
+
+.value-table td.main-table-bottom {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: var(--secondary);
+}
+
+.value-table th.main-table {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border: var(--secondary);
+}
+
+.value-table tr:nth-child(even) {
+    background-color: var(--primary-lighter);
+}
+/*------------------------------------------------
+                  Value table end
+-------------------------------------------------*/
+/*------------------------------------------------
+                 Content end
+-------------------------------------------------*/
+/*------------------------------------------------
+                 Evaluation
+-------------------------------------------------*/
+.evaluez {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+    color: var(--secondary);
+    margin-bottom: 10px;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        font-size: 1.5em;
+    }
+}
+
+.content i {
+    color: var(--secondary);
+}
+
+.content span {
+    position: relative;
+    display: inline-block;
+}
+
+.content span:before,
+.content span:after {
+    position: absolute;
+    content: "";
+    background-color:var(--tertiary);
+    width: 40px;
+    height: 1px;
+    top: 50%;
+}
+
+.content span:before {
+    left: -45px;
+}
+
+.content span:after {
+    right: -45px;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    margin: 20px auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper input {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+}
+
+.wrapper label {
+    position: relative;
+    float: right;
+    color: var(--secondary);
+}
+
+.wrapper label:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 1.8em;
+    color: var(--primary);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.wrapper input:checked~label:before {
+    color: var(--secondary);
+}
+
+.wrapper label:hover~label:before {
+    color: var(--primary);
+}
+
+.wrapper label:hover:before {
+    color: var(--secondary);
+}
+
+.rating-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+
+.rating-buttons button[type="reset"],
+.rating-buttons button[type="submit"] {
+    background-color: var(--tertiary);
+    color: var(--primary-lighter);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        font-size: 0.9em;
+    }
+}
+
+.rating-buttons button[type="reset"]:hover,
+.rating-buttons button[type="submit"]:hover,
+.rating-buttons button[type="reset"]:focus,
+.rating-buttons button[type="submit"]:focus {
+    background-color: var(--secondary);
+    transition: background-color 0.3s, border-color 0.3s, font-size 0.3s;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+        font-size: 0.9em;
+    }
+}
+
+/*------------------------------------------------
+                Evaluation end
+-------------------------------------------------*/
+
+/*------------------------------------------------
+                   Contact
+-------------------------------------------------*/
+#comment {
+    padding-top:3em;
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    color: var(--secondary);
+    padding-bottom: 1em;
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        font-size: 1.5em;
+    }
+}
+/*------------------------------------------------
+                Contact end
+-------------------------------------------------*/

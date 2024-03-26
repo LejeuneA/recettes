@@ -5,75 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font awasome -->
-    <script src="https://kit.fontawesome.com/3546d47201.js" crossorigin="anonymous"></script>
-
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/recettes.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 
     <!-- Title -->
     <title> Falafel </title>
 
     <!-- Favicon-->
-    <link rel="shortcut icon" type="image/icon" href="../icons/favicon.png">
+    <link rel="shortcut icon" type="image/icon" href="../assets/icons/favicon.png">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="navbar">
+    <!-------------------------------------------------------- 
+                          Navigation
+    ---------------------------------------------------------->
+    <nav class="navbar">
+        <!-- Menu -->
+        <div class="navbar container">
+            <!-- Logo -->
+            <!-- <div class="navbar-brand">
+                <a href="./index.html"><img src="./assets/images/" alt=""></a>
+            </div> -->
+            <!-- Logo end -->
+            <!-- Menu -->
             <a href="../index.html">Accueil</a>
             <div class="dropdown">
                 <button class="dropbtn">Recettes
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="falafel.html">Falafel</a>
-                    <a href="quiche-saumon.html">Quiche au saumon</a>
-                    <a href="salade-cesar.html">Salade César</a>
+                    <a href="./recettes/falafel.html">Falafel</a>
+                    <a href="./recettes/quiche-saumon.html">Quiche au saumon</a>
+                    <a href="./recettes/salade-cesar.html">Salade César</a>
                 </div>
             </div>
             <a href="../contact.html">Contact</a>
+            <!-- Menu end -->
         </div>
     </nav>
+    <!-------------------------------------------------------- 
+                        Navigation end
+    ---------------------------------------------------------->
 
-    <!-- Navbar end -->
-
-    <!-- Header -->
+    <!-------------------------------------------------------- 
+                          Header
+    ---------------------------------------------------------->
     <header>
         <div class="main-header-falafel">
             <h1>FALAFEL</h1>
-            <h3>Découvrez la Délice Croustillante: Festin de Falafel</h3>
+            <p>Découvrez la Délice Croustillante: Festin de Falafel</p>
         </div>
     </header>
-    <!-- Header end -->
-    <div class="content-box">
-        <blockquote><i class="fa-solid fa-quote-left"></i>
-            Plongez dans l'art magique de la cuisine avec notre exquise recette de Falafel. Immergez-vous dans la fusion
-            riche de saveurs et de textures qui caractérise cette délicatesse du Moyen-Orient. De la perfection dorée de
-            chaque bouchée croustillante à la danse harmonieuse des épices, notre recette de Falafel promet un voyage
-            culinaire incomparable.
-            Découvrez les secrets de la création de ces délices de pois chiches et de fèves, assaisonnés à la perfection
-            avec des herbes aromatiques et des épices. Que vous soyez un chef expérimenté ou un passionné de cuisine,
-            notre
-            guide étape par étape garantit une expérience de cuisine sans faille. Élevez votre cuisine maison avec le
-            goût
-            irrésistible du Falafel fait maison.
-            Rejoignez-nous alors que nous dévoilons le récit des saveurs, vous invitant à savourer chaque moment dans la
-            cuisine et à apprécier la joie de partager ce chef-d'œuvre culinaire avec vos proches. Que commence le
-            Festin de
-            Falafel!
-            <i class="fa-solid fa-quote-right"></i>
-        </blockquote>
-    </div>
-    <!-- Content -->
-    <div class="recette">
+    <!-------------------------------------------------------- 
+                        Header end
+    ---------------------------------------------------------->
+    <!-------------------------------------------------------- 
+                          Content
+    ---------------------------------------------------------->
+    <main class="container">
+        <div class="blockquote-paragraph">
+            <blockquote><i class="fa-solid fa-quote-left"></i>
+                Plongez dans l'art magique de la cuisine avec notre exquise recette de Falafel. Immergez-vous dans la
+                fusion
+                riche de saveurs et de textures qui caractérise cette délicatesse du Moyen-Orient. De la perfection
+                dorée de
+                chaque bouchée croustillante à la danse harmonieuse des épices, notre recette de Falafel promet un
+                voyage
+                culinaire incomparable.
+                Découvrez les secrets de la création de ces délices de pois chiches et de fèves, assaisonnés à la
+                perfection
+                avec des herbes aromatiques et des épices. Que vous soyez un chef expérimenté ou un passionné de
+                cuisine,
+                notre
+                guide étape par étape garantit une expérience de cuisine sans faille. Élevez votre cuisine maison avec
+                le
+                goût
+                irrésistible du Falafel fait maison.
+                Rejoignez-nous alors que nous dévoilons le récit des saveurs, vous invitant à savourer chaque moment
+                dans la
+                cuisine et à apprécier la joie de partager ce chef-d'œuvre culinaire avec vos proches. Que commence le
+                Festin de
+                Falafel!
+                <i class="fa-solid fa-quote-right"></i>
+            </blockquote>
+        </div>
 
-        <!-- Article -->
+        <!-------------------------------------------------------- 
+                              Content boxes
+        ---------------------------------------------------------->
+        <!-- Recipe box -->
         <div class="recipe-box">
+            <!-- Prep box -->
             <div class="prep-box">
+                <!-- Ing box -->
                 <div class="ing-box">
+                    <!-- Recipe -->
                     <div class="recipe">
                         <h3> Ingrédients <i> (pour 4 personnes) </i></h3>
                         <hr>
@@ -93,71 +119,95 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- Recipe end -->
+                    <!-- Recipe img -->
                     <div class="recipe-img">
-                        <img src="../image/falafel-sm-img.jpg" alt="Falafel">
+                        <img src="../assets/images/falafel-vertical.jpg" alt="Falafel">
                     </div>
+                    <!-- Recipe img end -->
                 </div>
+                <!-- Ing box end -->
                 <!-- Préparation -->
                 <div class="prep">
                     <h3> Préparation </h3>
                     <hr>
-                    <p>
-                        <i class="fa-solid fa-mortar-pestle"></i><b> Temps total:</b> 1h20
-                        <span class="timing"><i class="fa-solid fa-mortar-pestle"></i><b> Préparation:</b> 1h</span>
-                        <span class="timing"><i class="fa-solid fa-mortar-pestle"></i><b> Cuisson:</b> 20 min
-                        </span>
-                    </p>
+                    <div class="timing">
+                        <div><i class="fa-solid fa-mortar-pestle"></i> Temps total: 1h20</div>
+                        <div><i class="fa-solid fa-mortar-pestle"></i><b> Préparation:</b> 1h</div>
+                        <div><i class="fa-solid fa-mortar-pestle"></i><b> Cuisson:</b> 20 min
+                        </div>
+                    </div>
                     <hr>
                     <p>
-                        <b> ÉTAPE 1 </b>
-                        <br>
-                        Faites tremper les pois chiches et les fèves dans l'eau 12h, les égoutter et les cuire 45
-                        mn à
-                        l'auto
-                        cuiseur.
+                        ÉTAPE 1
+                        <span>
+                            Faites tremper les pois chiches et les fèves dans l'eau 12h, les égoutter et les cuire 45
+                            mn à
+                            l'auto
+                            cuiseur.
+                        </span>
                     </p>
-                    <p>
-                        <b> ÉTAPE 2 </b>
-                        <br>
-                        Peler oignon et ail, les hacher ainsi que le persil.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 3 </b>
-                        <br>
-                        Passer les fèves et les pois chiches au mixer (ou robot).
-                    </p>
-                    <p>
-                        <b> ÉTAPE 4 </b>
-                        <br>
-                        Mélanger avec le persil, l'oignon, l'ail, la farine, les épices, le sel.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 5 </b>
-                        <br>
-                        Pétrissez le tout avec vos mains en ajoutant un peu d'eau si nécessaire. Rassemblez la pâte
-                        et
-                        laisser
-                        reposer au réfrigérateur pendant minimum 30 mn.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 6 </b>
-                        <br>
-                        Façonner une trentaine de boulettes de la grosseur d'une pièce de 2 euros.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 7 </b>
-                        <br>
-                        Les faire frire 2/3 mn puis les égoutter sur du papier absorbant.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 8 </b>
-                        <br>
-                        Servir chaud ou froid avec des petites sauces tomates aux herbes, ou sauces yaourts.
-                    </p>
-                </div>
-            </div>
 
-            <!-- Tableau Valeurs Nutritives -->
+                    <p>
+                        ÉTAPE 2
+                        <span>
+                            Peler oignon et ail, les hacher ainsi que le persil.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 3
+                        <span>
+                            Passer les fèves et les pois chiches au mixer (ou robot).
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 4
+                        <span>
+                            Mélanger avec le persil, l'oignon, l'ail, la farine, les épices, le sel.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 5
+                        <span>
+                            Pétrissez le tout avec vos mains en ajoutant un peu d'eau si nécessaire. Rassemblez la pâte
+                            et
+                            laisser
+                            reposer au réfrigérateur pendant minimum 30 mn.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 6
+                        <span>
+                            Façonner une trentaine de boulettes de la grosseur d'une pièce de 2 euros.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 7
+                        <span>
+                            Les faire frire 2/3 mn puis les égoutter sur du papier absorbant.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 8
+                        <span>
+                            Servir chaud ou froid avec des petites sauces tomates aux herbes, ou sauces yaourts.
+                        </span>
+                    </p>
+
+                </div>
+                <!-- Preparation end -->
+            </div>
+            <!-- Prep box end -->
+            <!-------------------------------------------------------- 
+                                   Value table
+            ---------------------------------------------------------->
+            <!-- Value table -->
             <div class="value-table">
                 <table>
                     <thead>
@@ -212,92 +262,131 @@
                             <td>5%</td>
                         </tr>
                         <tr>
-                            <td colspan="3" class="main-table-bottom">* Apport de Référence pour un adulte-type (8400 kJ / 2000 kcal)</td>
+                            <td colspan="3" class="main-table-bottom">* Apport de référence pour un adulte-type (8400 kJ
+                                / 2000 kcal)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <!-- Value table end -->
         </div>
-    </div>
+        <!-- Recipe box end -->
+        <!-------------------------------------------------------- 
+                         Value table end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
+                          Content boxes end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
+                            Evaluation
+        ---------------------------------------------------------->
+        <!-- Evaluation -->
+        <div class="evaluez">
+            <div class="content">
+                <h1>Évaluez votre expérience</h1>
+                <span><i class="fa fa-star"></i></span>
+            </div>
 
-    <!-- Formulaire commentaire -->
-    <div class="evaluez">
-        <div class="content">
-            <h1>Évaluez votre expérience</h1>
-            <span><i class="fa fa-star"></i></span>
-        </div>
-
-        <div class="wrapper">
-            <input type="checkbox" id="st1" value="1" />
-            <label for="st1"></label>
-            <input type="checkbox" id="st2" value="2" />
-            <label for="st2"></label>
-            <input type="checkbox" id="st3" value="3" />
-            <label for="st3"></label>
-            <input type="checkbox" id="st4" value="4" />
-            <label for="st4"></label>
-            <input type="checkbox" id="st5" value="5" />
-            <label for="st5"></label>
-        </div>
-        <div class="rating-buttons">
-            <button type="reset">Réinitialiser</button>
-            <button type="submit">Envoyer</button>
-        </div>
-    </div>
-
-    <!-- Contact -->
-    <div class="contact-section">
-        <h1 id="comment">Ajouter un commentaire à la recette</h1><hr>
-        <div class="contact-form">
-            <div class="form-box">
-            <form action="#">
-                <div>
-                    <label for="fname">Prénom:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="Entrez votre prénom...">
-                </div>
-                <br>
-                <div>
-                    <label for="lname">Nom:</label><br>
-                    <input type="text" id="lname" name="lname" placeholder="Entrez votre nom...">
-                </div>
-                <br>
-                <div>
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="user_email" name="user_email" placeholder="Entrez votre email..."><br><br>
-                </div>
-                <div>
-                    <label for="message">Message:</label><br>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Rédiger votre message?"></textarea><br>
-                </div>
-                <br>
-                <div>
-                    <input type="checkbox" id="cgu" name="cgu" required>
-                    <label for="cgu">J'accepte les condition générales d'utilisation</label>
-                </div>
-                <br>
-                <div>
-                    <button type="reset">Réinitialiser</button>
-                    <button type="submit">Envoyer</button>
-                </div>
-            </form>
+            <div class="wrapper">
+                <input type="checkbox" id="st1" value="1" />
+                <label for="st1"></label>
+                <input type="checkbox" id="st2" value="2" />
+                <label for="st2"></label>
+                <input type="checkbox" id="st3" value="3" />
+                <label for="st3"></label>
+                <input type="checkbox" id="st4" value="4" />
+                <label for="st4"></label>
+                <input type="checkbox" id="st5" value="5" />
+                <label for="st5"></label>
+            </div>
+            <div class="rating-buttons">
+                <button type="reset" tabindex="1">Réinitialiser</button>
+                <button type="submit" tabindex="2">Envoyer</button>
             </div>
         </div>
-    </div>
-    <!-- Contact end -->
 
-    <!-- Footer -->
+        <!-- Evaluation end -->
+        <!-------------------------------------------------------- 
+                             Evaluation end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
+                                Contact
+        ---------------------------------------------------------->
+        <!-- Contact section -->
+        <div class="contact-section">
+            <h1 id="comment">Ajouter un commentaire à la recette</h1>
+            <!-- Contact form -->
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
+
+                    <label for="lname">Nom</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
+
+                    <label for="country">Pay</label>
+                    <select id="country" name="country">
+                        <option value="australia">Belgique</option>
+                        <option value="canada">France</option>
+                        <option value="usa">Angleterre</option>
+                    </select>
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Rédiger votre message..."
+                        style="height:200px"></textarea>
+                    <!-- Checkbox -->
+                    <div class="checkbox">
+                        <input type="checkbox" id="cgu" name="cgu" required>
+                        <label for="cgu">J'accepte les condition générales d'utilisation</label>
+                    </div>
+                    <!-- Checkbox end -->
+                    <!-- Button -->
+                    <input type="reset" value="Réinitialiser">
+                    <input type="submit" value="Envoyer">
+                    <!-- Button end -->
+                </form>
+            </div>
+            <!-- Contact form end -->
+        </div>
+        <!-- Contact section end -->
+    </main>
+    <!-- Main end -->
+    <!-------------------------------------------------------- 
+                           Contact end
+    ---------------------------------------------------------->
+    <!-------------------------------------------------------- 
+                          Content end
+    ---------------------------------------------------------->
+    <!-------------------------------------------------------- 
+                            Footer
+    ---------------------------------------------------------->
     <footer>
         <div class="footer-menu">
-            <a href="../index.html">Accueil</a>
-            <a href="../contact.html">Contact</a>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
         </div>
-        <p>
-            &copy; copyright Açelya Lejeune. <br> design and developed by <a href="https://github.com/LejeuneA">Açelya
-                Lejeune</a>
-        </p>
+        <div class="footer-row">
+            <div class="footer-copyright">
+                <p><a class="github-link" href="https://github.com/LejeuneA"><i class="fa fa-github"
+                            aria-hidden="true"></i>
+                        Açelya
+                        Lejeune</a> © 2024 tous droits reserves</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:contactK@acelyalejeune.be">contact@acelyalejeune.be</a>
+                    <span>Télephone: +32412345678</span>
+                </p>
+            </div>
+        </div>
     </footer>
-    <!-- Footer end -->
+    <!-------------------------------------------------------- 
+                        Footer end
+    ---------------------------------------------------------->
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/3546d47201.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
