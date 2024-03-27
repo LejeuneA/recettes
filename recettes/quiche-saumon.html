@@ -13,6 +13,7 @@
 
     <!-- Favicon-->
     <link rel="shortcut icon" type="image/icon" href="../assets/icons/favicon.png">
+
 </head>
 
 <body>
@@ -20,33 +21,27 @@
                           Navigation
     ---------------------------------------------------------->
     <nav class="navbar">
-        <div class="navbar-content container">
+        <!-- Menu -->
+        <div class="navbar container">
             <!-- Logo -->
             <!-- <div class="navbar-brand">
                 <a href="./index.html"><img src="./assets/images/" alt=""></a>
             </div> -->
             <!-- Logo end -->
             <!-- Menu -->
-            <div class="navbar-menu">
-                <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-
-                    <div class="dropdown">
-                        <button class="dropbtn">Recettes
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./falafel.html">Falafel</a>
-                            <a href="./quiche-saumon.html">Quiche au saumon</a>
-                            <a href="./salade-cesar.html">Salade César</a>
-                        </div>
-                    </div>
-
-                    <li><a href="../contact.html">Contact</a></li>
-                </ul>
+            <a href="../index.html">Accueil</a>
+            <div class="dropdown">
+                <button class="dropbtn">Recettes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../recettes/falafel.html">Falafel</a>
+                    <a href="../recettes/quiche-saumon.html">Quiche au saumon</a>
+                    <a href="../recettes/salade-cesar.html">Salade César</a>
+                </div>
             </div>
+            <a href="../contact.html">Contact</a>
             <!-- Menu end -->
-
         </div>
     </nav>
     <!-------------------------------------------------------- 
@@ -54,34 +49,42 @@
     ---------------------------------------------------------->
 
     <!-------------------------------------------------------- 
-                        Header
+                          Header
     ---------------------------------------------------------->
-    <header>
-        <div class="main-header-quiche">
+    <header class="main-header-quiche">
+        <div class="main-header-content container">
             <h1>QUICHE AU SAUMON</h1>
-            <h3>Une Symphonie de Saumon et de Délices Savoureux</h3>
+            <p>Une Symphonie de Saumon et de Délices Savoureux</p>
         </div>
     </header>
     <!-------------------------------------------------------- 
                         Header end
     ---------------------------------------------------------->
-    <div class="introduction-box container">
-        <blockquote><i class="fa-solid fa-quote-left"></i>
-            Savourez l'harmonie luxueuse des saveurs avec notre Quiche au Saumon. Cette délicieuse création marie
+    <!-------------------------------------------------------- 
+                          Content
+    ---------------------------------------------------------->
+    <main class="container">
+        <div class="blockquote-paragraph">
+            <blockquote><i class="fa-solid fa-quote-left"></i>
+                Savourez l'harmonie luxueuse des saveurs avec notre Quiche au Saumon. Cette délicieuse création marie
             habilement la richesse du saumon tendre avec un mélange d'ingrédients savoureux, le tout enveloppé dans une
             croûte parfaitement cuite. Chaque bouchée dévoile une danse délicieuse de textures et de saveurs, faisant de
             cette quiche un choix sublime pour toute occasion. Élevez votre expérience culinaire avec ce chef-d'œuvre
             gastronomique qu'est notre Quiche au Saumon, une véritable célébration de l'excellence gastronomique.
-            <i class="fa-solid fa-quote-right"></i>
-        </blockquote>
-    </div>
-    <!-- Content -->
-    <div class="recette container">
+                <i class="fa-solid fa-quote-right"></i>
+            </blockquote>
+        </div>
 
-        <!-- Article -->
+        <!-------------------------------------------------------- 
+                              Content boxes
+        ---------------------------------------------------------->
+        <!-- Recipe box -->
         <div class="recipe-box">
+            <!-- Prep box -->
             <div class="prep-box">
+                <!-- Ing box -->
                 <div class="ing-box">
+                    <!-- Recipe -->
                     <div class="recipe">
                         <h3> Ingrédients <i> (pour 4 personnes) </i></h3>
                         <hr>
@@ -96,55 +99,71 @@
                             <li><i class="fa-solid fa-mortar-pestle"></i> 1 botte de ciboulette</li>
                         </ul>
                     </div>
+                    <!-- Recipe end -->
+                    <!-- Recipe img -->
                     <div class="recipe-img">
-                        <img src="../image/quiche3.jpg" alt="Quiche au saumon">
+                        <img src="../assets/images/quiche-vertical.jpg" alt="Quiche au saumon">
                     </div>
+                    <!-- Recipe img end -->
                 </div>
+                <!-- Ing box end -->
                 <!-- Préparation -->
                 <div class="prep">
                     <h3> Préparation </h3>
                     <hr>
-                    <p>
-                        <i class="fa-solid fa-mortar-pestle"></i><b> Temps total:</b> 55 min
-                        <span class="timing"><i class="fa-solid fa-mortar-pestle"></i><b> Préparation:</b> 10 min</span>
-                        <span class="timing"><i class="fa-solid fa-mortar-pestle"></i><b> Cuisson:</b> 45 min
-                        </span>
-                    </p>
+                    <div class="timing">
+                        <div><i class="fa-solid fa-mortar-pestle"></i> Temps total: 55 min</div>
+                        <div><i class="fa-solid fa-mortar-pestle"></i> Préparation: 10 min</div>
+                        <div><i class="fa-solid fa-mortar-pestle"></i> Cuisson: 20 min
+                        </div>
+                    </div>
                     <hr>
                     <p>
-                        <b> ÉTAPE 1 </b>
-                        <br>
-                        Préchauffer le four à 200°C (thermostat 6-7). Etaler la pâte dans un plat à tarte, piquer le
+                        ÉTAPE 1
+                        <span>
+                            Préchauffer le four à 200°C (thermostat 6-7). Etaler la pâte dans un plat à tarte, piquer le
                         fond avec une
                         fourchette.
+                        </span>
                     </p>
-                    <p>
-                        <b> ÉTAPE 2 </b>
-                        <br>
-                        Battre les oeufs en omelette et y incorporer la crème fraîche et la ciboulette émincée.
-                        Assaisonner. Verser 3 cuillères à soupe de cette préparation sur la pâte.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 3 </b>
-                        <br>
-                        Émincer les tranches de saumon et en disposer la moitié dans le plat à tarte.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 4 </b>
-                        <br>
-                        Recouvrir du reste de sauce et placer le saumon restant sur le tout.
-                    </p>
-                    <p>
-                        <b> ÉTAPE 5 </b>
-                        <br>
-                        Enfourner pendant 45 min.
-                    </p>
-                </div>
-            </div>
 
+                    <p>
+                        ÉTAPE 2
+                        <span>
+                            Battre les oeufs en omelette et y incorporer la crème fraîche et la ciboulette émincée.
+                        Assaisonner. Verser 3 cuillères à soupe de cette préparation sur la pâte.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 3
+                        <span>
+                            Émincer les tranches de saumon et en disposer la moitié dans le plat à tarte.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 4
+                        <span>
+                            Recouvrir du reste de sauce et placer le saumon restant sur le tout.
+                        </span>
+                    </p>
+
+                    <p>
+                        ÉTAPE 5
+                        <span>
+                            Enfourner pendant 45 min.
+                        </span>
+                    </p>
+
+                </div>
+                <!-- Preparation end -->
+            </div>
+            <!-- Prep box end -->
             <!-------------------------------------------------------- 
                                    Value table
             ---------------------------------------------------------->
+            <!-- Value table -->
             <div class="value-table">
                 <table>
                     <thead>
@@ -199,114 +218,127 @@
                             <td>20%</td>
                         </tr>
                         <tr>
-                            <td colspan="3" class="main-table-bottom">* Apport de Référence pour un adulte-type (8400 kJ
-                                / 2000 kcal)</td>
+                            <td colspan="3" class="main-table-bottom">* Apport de Référence pour un adulte-type (8400 kJ / 2000 kcal)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <!-- Value table end -->
         </div>
-    </div>
-    <!-------------------------------------------------------- 
-                           Value table end
-    ---------------------------------------------------------->
-
-    <!-------------------------------------------------------- 
+        <!-- Recipe box end -->
+        <!-------------------------------------------------------- 
+                         Value table end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
+                          Content boxes end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
                             Evaluation
-    ---------------------------------------------------------->
-    <div class="evaluez container">
-        <div class="content">
-            <h1>Évaluez votre expérience</h1>
-            <span><i class="fa fa-star"></i></span>
+        ---------------------------------------------------------->
+        <!-- Evaluation -->
+        <div class="evaluez">
+            <div class="content">
+                <h1>Évaluez votre expérience</h1>
+                <span><i class="fa fa-star"></i></span>
+            </div>
+
+            <div class="wrapper">
+                <input type="checkbox" id="st1" value="1" />
+                <label for="st1"></label>
+                <input type="checkbox" id="st2" value="2" />
+                <label for="st2"></label>
+                <input type="checkbox" id="st3" value="3" />
+                <label for="st3"></label>
+                <input type="checkbox" id="st4" value="4" />
+                <label for="st4"></label>
+                <input type="checkbox" id="st5" value="5" />
+                <label for="st5"></label>
+            </div>
+            <div class="rating-buttons">
+                <button type="reset" tabindex="1">Réinitialiser</button>
+                <button type="submit" tabindex="2">Envoyer</button>
+            </div>
         </div>
 
-        <div class="wrapper">
-            <input type="checkbox" id="st1" value="1" />
-            <label for="st1"></label>
-            <input type="checkbox" id="st2" value="2" />
-            <label for="st2"></label>
-            <input type="checkbox" id="st3" value="3" />
-            <label for="st3"></label>
-            <input type="checkbox" id="st4" value="4" />
-            <label for="st4"></label>
-            <input type="checkbox" id="st5" value="5" />
-            <label for="st5"></label>
-        </div>
-        <div class="rating-buttons">
-            <button type="reset">Réinitialiser</button>
-            <button type="submit">Envoyer</button>
-        </div>
-    </div>
-    <!-------------------------------------------------------- 
-                            Evaluation end
-    ---------------------------------------------------------->
-    <!-------------------------------------------------------- 
-                           Contact
-    ---------------------------------------------------------->
-    <div class="contact-section container">
-        <h1 id="comment">Ajouter un commentaire à la recette</h1>
-        <hr>
-        <div class="contact-form">
-            <div class="form-box">
-                <form action="#">
-                    <div>
-                        <label for="fname">Prénom:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Entrez votre prénom...">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="lname">Nom:</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="Entrez votre nom...">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="email">Email:</label><br>
-                        <input type="text" id="user_email" name="user_email"
-                            placeholder="Entrez votre email..."><br><br>
-                    </div>
-                    <div>
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" cols="30" rows="10"
-                            placeholder="Rédiger votre message?"></textarea><br>
-                    </div>
-                    <br>
-                    <div>
+        <!-- Evaluation end -->
+        <!-------------------------------------------------------- 
+                             Evaluation end
+        ---------------------------------------------------------->
+        <!-------------------------------------------------------- 
+                                Contact
+        ---------------------------------------------------------->
+        <!-- Contact section -->
+        <div class="contact-section">
+            <h1 id="comment">Ajouter un commentaire à la recette</h1>
+            <!-- Contact form -->
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
+
+                    <label for="lname">Nom</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
+
+                    <label for="country">Pay</label>
+                    <select id="country" name="country">
+                        <option value="australia">Belgique</option>
+                        <option value="canada">France</option>
+                        <option value="usa">Angleterre</option>
+                    </select>
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Rédiger votre message..."
+                        style="height:200px"></textarea>
+                    <!-- Checkbox -->
+                    <div class="checkbox">
                         <input type="checkbox" id="cgu" name="cgu" required>
                         <label for="cgu">J'accepte les condition générales d'utilisation</label>
                     </div>
-                    <br>
-                    <div>
-                        <button type="reset">Réinitialiser</button>
-                        <button type="submit">Envoyer</button>
-                    </div>
+                    <!-- Checkbox end -->
+                    <!-- Button -->
+                    <input type="reset" value="Réinitialiser">
+                    <input type="submit" value="Envoyer">
+                    <!-- Button end -->
                 </form>
             </div>
+            <!-- Contact form end -->
         </div>
-    </div>
+        <!-- Contact section end -->
+    </main>
+    <!-- Main end -->
     <!-------------------------------------------------------- 
                            Contact end
+    ---------------------------------------------------------->
+    <!-------------------------------------------------------- 
+                          Content end
     ---------------------------------------------------------->
     <!-------------------------------------------------------- 
                             Footer
     ---------------------------------------------------------->
     <footer>
-        <div class="footer-menu">
-            <ul>
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-row">
-            <div class="footer-copyright">
-                <p><a class="github-link" href="https://github.com/LejeuneA"><i class="fa fa-github"
-                            aria-hidden="true"></i>
-                        Açelya
-                        Lejeune</a> © 2024 tous droits reserves</p>
+        <div class="footer-top">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
             </div>
-            <div class="footer-contact">
-                <p>Email: <a href="mailto:contactK@acelyalejeune.be">contact@acelyalejeune.be</a>
-                    <span>Télephone: +32412345678</span>
-                </p>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-row container">
+                <div class="footer-copyright">
+                    <p><a class="github-link" href="https://github.com/LejeuneA"><i class="fa fa-github"
+                                aria-hidden="true"></i>
+                            Açelya
+                            Lejeune</a> © 2024 tous droits reserves</p>
+                </div>
+                <div class="footer-contact">
+                    <div><i class="fa fa-envelope" aria-hidden="true"></i>Email: <a
+                            href="mailto:contactK@acelyalejeune.be">contact@acelyalejeune.be</a>
+                        
+                    </div>
+                    <div><i class="fa fa-phone" aria-hidden="true"></i>Télephone: +32412345678</div>
+                </div>
             </div>
         </div>
     </footer>
