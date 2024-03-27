@@ -9,7 +9,7 @@
 
 /* Header */
 .main-header-contact {
-    background-image: url(../../images/contact-sm.jpg);
+    background-image: url(../../images/vegetables-sm.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -21,13 +21,18 @@
     bottom: 28%;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 
-.main-header-contact h3 {
+.main-header-contact p {
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Header end */
@@ -181,34 +186,3 @@ input[type="checkbox"]:not(:disabled):checked {
 }
 
 /* Contact end */
-
-/* Contact info */
-.contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 3rem;
-    background-color: var(--primary-color);
-
-}
-
-.contact-info i {
-    color: var(--tertiary-color);
-    font-size: 2em;
-    margin-right: 0.5rem;
-    vertical-align: middle;
-}
-
-.contact-info a {
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
-
-.contact-info a:hover {
-    text-decoration: none;
-    color: var(--secondary-color);
-
-}
-
-/* Contact info end */
