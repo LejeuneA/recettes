@@ -55,104 +55,107 @@
                         Navigation end
     ---------------------------------------------------------->
 
-    <!-- Header -->
-    <header>
-        <section class="main-header-contact">
+    <!-------------------------------------------------------- 
+                             Header
+    ---------------------------------------------------------->
+    <header class="main-header">
+        <div class="main-header-content container">
             <h1>COLLABORER AVEC NOUS</h1>
-            <h3>Travaillons ensemble sur des projets gastronomiques</h3>
-        </section>
+            <p class="container">Travaillons ensemble sur des projets gastronomiques</p>
+        </div>
     </header>
-    <!-- Header end -->
+    <!-------------------------------------------------------- 
+                        Header end
+    ---------------------------------------------------------->
+    <main class="container">
 
-    <!-- Contact -->
+        <div class="blockquote-paragraph">
+            <blockquote><i class="fa-solid fa-quote-left"></i>
+                Si vous envisagez une collaboration dans le domaine culinaire pour des recettes innovantes, le design
+                alimentaire
+                ou d'autres projets créatifs liés à la gastronomie, n'hésitez pas à me contacter via ma page. Je me
+                réjouis
+                d'explorer vos idées culinaires et de travailler ensemble sur des projets gastronomiques.
+                <i class="fa-solid fa-quote-right"></i>
+            </blockquote>
+        </div>
+        <!-------------------------------------------------------- 
+                                Contact form
+        ---------------------------------------------------------->
+        <!-- Contact section -->
+        <div class="contact-section">
+            <div class="main-title">
+                <h2>Contactez-nous</h2>
+            </div>
+            <!-- Contact form -->
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
 
-    <blockquote><i class="fa-solid fa-quote-left"></i>
-        Si vous envisagez une collaboration dans le domaine culinaire pour des recettes innovantes, le design
-        alimentaire
-        ou d'autres projets créatifs liés à la gastronomie, n'hésitez pas à me contacter via ma page. Je me réjouis
-        d'explorer vos idées culinaires et de travailler ensemble sur des projets gastronomiques.
-        <i class="fa-solid fa-quote-right"></i>
-    </blockquote>
+                    <label for="lname">Nom</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
 
-    <h1 id="contact">Contactez-nous</h1>
-    <hr>
-    <!-- Contact -->
-    <div class="contact-section">
+                    <label for="country">Pay</label>
+                    <select id="country" name="country">
+                        <option value="australia">Belgique</option>
+                        <option value="canada">France</option>
+                        <option value="usa">Angleterre</option>
+                    </select>
 
-        <div class="contact-form">
-            <div class="form-box">
-                <form action="#">
-                    <div>
-                        <label for="fname">Prénom:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Entrez votre prénom...">
-                    </div>
-
-                    <div>
-                        <label for="lname">Nom:</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="Entrez votre nom...">
-                    </div>
-
-                    <div>
-                        <label for="email">Email:</label><br>
-                        <input type="text" id="user_email" name="user_email"
-                            placeholder="Entrez votre email..."><br><br>
-                    </div>
-                    <div>
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" cols="30" rows="10"
-                            placeholder="Rédiger votre message?"></textarea><br>
-                    </div>
-
-                    <div>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Rédiger votre message..."
+                        style="height:200px"></textarea>
+                    <!-- Checkbox -->
+                    <div class="checkbox">
                         <input type="checkbox" id="cgu" name="cgu" required>
                         <label for="cgu">J'accepte les condition générales d'utilisation</label>
                     </div>
-                    <br>
-                    <div>
-                        <button type="reset">Réinitialiser</button>
-                        <button type="submit">Envoyer</button>
-                    </div>
+                    <!-- Checkbox end -->
+                    <!-- Button -->
+                    <input type="reset" value="Réinitialiser">
+                    <input type="submit" value="Envoyer">
+                    <!-- Button end -->
                 </form>
             </div>
+            <!-- Contact form end -->
         </div>
-    </div>
-    <!-- Contact end -->
-
-    <!-- Contact info -->
-    <div class="contact-info">
-        <div>
-            <h4><i class="fa fa-phone fa-xs me-1" aria-hidden="true"></i>Phone: <span class="fs-6">+32 49 338 77
-                    29</span></h4>
-        </div>
-        <div>
-            <h4><i class="fa fa-envelope fa-xs me-1" aria-hidden="true"></i>Email:
-                <a href="mailto:contact@acelyalejeune.be"><span class="fs-6">contact@acelyalejeune.be</span></a>
-            </h4>
-        </div>
-    </div>
-    <!-- Contact info end-->
+        <!-- Contact section end -->
+        <!-------------------------------------------------------- 
+                          Contact form end
+        ---------------------------------------------------------->
+    </main>
+    <!-------------------------------------------------------- 
+                             Main end
+    ---------------------------------------------------------->
 
     <!-------------------------------------------------------- 
                             Footer
     ---------------------------------------------------------->
     <footer>
-        <div class="footer-menu">
-            <ul>
-                <li><a href="../public/index.html">Accueil</a></li>
-                <li><a href="../public/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-row">
-            <div class="footer-copyright">
-                <p><a class="github-link" href="https://github.com/LejeuneA"><i class="fa fa-github"
-                            aria-hidden="true"></i>
-                        Açelya
-                        Lejeune</a> © 2024 tous droits reserves</p>
+        <div class="footer-top">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
             </div>
-            <div class="footer-contact">
-                <p>Email: <a href="mailto:contactK@acelyalejeune.be">contact@acelyalejeune.be</a>
-                    <span>Télephone: +32412345678</span>
-                </p>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-row container">
+                <div class="footer-copyright">
+                    <p><a class="github-link" href="https://github.com/LejeuneA"><i class="fa fa-github"
+                                aria-hidden="true"></i>
+                            Açelya
+                            Lejeune</a> © 2024 tous droits reserves</p>
+                </div>
+                <div class="footer-contact">
+                    <div><i class="fa fa-envelope" aria-hidden="true"></i>Email: <a
+                            href="mailto:contactK@acelyalejeune.be">contact@acelyalejeune.be</a>
+
+                    </div>
+                    <div><i class="fa fa-phone" aria-hidden="true"></i>Télephone: +32412345678</div>
+                </div>
             </div>
         </div>
     </footer>
