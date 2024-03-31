@@ -35,6 +35,7 @@
         margin-bottom: 3em;
     }
 }
+
 /* Logo end */
 
 /* --------------------------------------------------------
@@ -60,7 +61,7 @@
     align-items: center;
 }
 
-.navbar-menu li a{
+.navbar-menu li a {
     text-decoration: none;
     cursor: pointer;
     font-size: medium;
@@ -69,10 +70,11 @@
     transition: all 0.3s ease;
 }
 
-.navbar-menu li a:hover{
+.navbar-menu li a:hover {
     color: var(--light);
     background-color: var(--secondary);
 }
+
 /* --------------------------------------------------------
                     Menu styles end
 -------------------------------------------------------- */
@@ -106,6 +108,14 @@
     background-color: var(--secondary);
 }
 
+.dropbtn .fa-caret-down {
+
+    /* Responsive styles */
+    @media (min-width: 320px) and (max-width: 768px) {
+        display: none;
+    }
+}
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -136,6 +146,7 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 /* --------------------------------------------------------
                 Dropdown styles end
 -------------------------------------------------------- */
