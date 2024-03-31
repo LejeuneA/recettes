@@ -1,9 +1,9 @@
 @import "../reset.css";
-@import "../css/styles.css";
-@import "./components/navigation.css";
-@import "./components/contact.css";
-@import "./components/articles.css";
-@import "./components/header.css";
+@import "../styles.css";
+@import "../components/navigation.css";
+@import "../components/contact.css";
+@import "../components/articles.css";
+@import "../components/header.css";
 
 footer {
     display: flex;
