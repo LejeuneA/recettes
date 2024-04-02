@@ -52,7 +52,7 @@ footer {
 }
 
 .footer-menu li a:hover {
-    color: var(--primary);
+    background-color: var(--secondary);
 }
 
 /* Footer top end */
